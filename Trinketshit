@@ -1,8 +1,7 @@
 _G.trinket = true
-local timeRemaining = 10
- 
-while timeRemaining > 0 do
-game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1160.3756103515625, 1630.9276123046875, 1009.492431640625)
+
+while _G.trinket == true do
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1160.3756103515625, 1630.9276123046875, 1009.492431640625)
 wait(0.5)
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1155.3966064453125, 1624.47802734375, 1004.509033203125)
 wait(0.5)
