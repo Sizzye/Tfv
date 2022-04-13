@@ -1,3 +1,4 @@
+_G.trinket = true
 local timeRemaining = 10
  
 while timeRemaining > 0 do
